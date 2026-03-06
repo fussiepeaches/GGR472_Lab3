@@ -1,0 +1,18 @@
+{"type":"FeatureCollection","features":[
+{"type":"Feature","geometry":{"type":"Point","coordinates":[139.814376,35.720131]},"properties":{"name":"Capybara Cafe","category":"food"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[139.707331,35.651534]},"properties":{"name":"Betty Smith Ebisu Factory","category":"shopping"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[139.7043,35.674415]},"properties":{"name":"HISEKI Ring Making","category":"experience"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[139.792417,35.664975]},"properties":{"name":"Team Labs","category":"museum"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[139.797118,35.716785]},"properties":{"name":"Nakamise Shopping Street","category":"shopping"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[139.770593,35.675933]},"properties":{"name":"Kapital Ginza","category":"shopping"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[139.70121,35.662142]},"properties":{"name":"Shibuya Observation Deck","category":"experience"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[139.702755,35.639406]},"properties":{"name":"Nakameguro","category":"nature"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[139.707511,35.665617]},"properties":{"name":"Nepenthes Clothing Store","category":"shopping"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[139.699522,35.695479]},"properties":{"name":"Omoide Yokocho Memory Lane","category":"food"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[139.702419,35.690534]},"properties":{"name":"Needles Clothing Store","category":"shopping"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[139.751433,35.671301]},"properties":{"name":"Memento Mori Bar","category":"food"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[139.774069,35.708732]},"properties":{"name":"Ueno","category":"nature"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[139.77356,35.698539]},"properties":{"name":"BOOKOFF Akihabara","category":"shopping"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[139.745279,35.61907]},"properties":{"name":"Oi Racecourse","category":"experience"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[139.568125,35.721709]},"properties":{"name":"Ghibli Museum","category":"museum"}}
+]}
