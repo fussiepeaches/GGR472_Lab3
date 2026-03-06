@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tokyo Tourist Spots</title>
+    <!-- Mapbox GL JS -->
+    <script src='https://api.mapbox.com/mapbox-gl-js/v3.18.1/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v3.18.1/mapbox-gl.css' rel='stylesheet' />
+    <!-- Mapbox Geocoder plugin -->
+    <script
+        src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v5.1.0/mapbox-gl-geocoder.min.js"></script>
+    <link rel="stylesheet"
+        href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v5.1.0/mapbox-gl-geocoder.css"
+        type="text/css">
+    <!-- link to bootstrap style sheet -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- link to css style sheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- text explaining what the map represents -->
+    <h1>Sight Seeing and Shopping in Tokyo</h1>
+    <h2>Checkout Some Famous Tourist Spots in Tokyo, Japan!</h2>
+    <!-- map container -->
+    <div id="my-map" class="map-container"></div>
+    <!-- Filter buttons beside legend. Side note: used google and AI to help figure out how to have the legend and filter menu beside eachother-->
+    <div class="legend-filter-row">
+        <div id='filters'>
+            <h3>Filter Spots</h3>
+            <button id="btn-all" class="btn btn-outline-secondary btn-sm">All</button>
+            <button id="btn-food" class="btn btn-outline-secondary btn-sm">Food</button>
+            <button id="btn-shopping" class="btn btn-outline-secondary btn-sm">Shopping</button>
+            <button id="btn-museum" class="btn btn-outline-secondary btn-sm">Museums</button>
+            <button id="btn-experience" class="btn btn-outline-secondary btn-sm">Experiences</button>
+        </div>
+        <!-- making a legend to allow for the map to be easier to understand -->
+        <div id="legend" class="legend">
+            <h4>Map Legend</h4>
+            <div><span></span>Food & Drink</div>
+            <div><span></span>Shopping</div>
+            <div><span></span>Museums</div>
+            <div><span></span>Experiences</div>
+        </div>
+    </div>
+    <!-- separate title explaining the buttons -->
+    <p2>Buy Tickets for the Attractions:</p2>
+    <!-- buttons takens from bootstrap with the linkns to additional information -->
+    <div class="btn-group my-button" role="group" aria-label="Basic outlined example">
+        <a href="https://www.ghibli-museum.jp/en/tickets/" target="_blank"><button type="button"
+                class="btn btn-outline-primary">Studio Ghibli</button></a>
+        <a href="https://borderless-azabudai.ticket.teamlab.art/?_gl=1*5o0698*_ga*MTk0NTU3NDg2Ny4xNzcyODI0NjQz*_ga_TYM1KJQPQW*czE3NzI4MjQ2NDMkbzEkZzAkdDE3NzI4MjQ2NDMkajYwJGwwJGgw*_gcl_au*MTg5NzYwMjUzNy4xNzcyODI0NjQz*_ga_E4JDR7KSJ2*czE3NzI4MjQ2NDMkbzEkZzAkdDE3NzI4MjQ2NDMkajYwJGwwJGgw#/"
+            target="_blank"><button type="button" class="btn btn-outline-primary">Team Labs</button></a>
+        <a href="https://www.klook.com/ja/activity/173208-tokyo-chopstick-making-workshop-with-artisan/"
+            target="_blank"><button type="button" class="btn btn-outline-primary">Chopstick Making</button></a>
+    </div>
+    <!-- Info about what the map content is -->
+    <p>This map represents some of the destinations within Tokyo that are major tourist spots and are commonly visited
+        <br> <br> The map includes cafes, bars, clothing stores, thrift stores, museums, and more. <br> Within
+        This is a running list of places to visit if you are thinking of visiting Japan! <br> <br> If you are planning
+        on visiting Tokyo, take a look at the map and consider visiting some of the locations!
+    </p>
+    <script src="script-expressions.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
